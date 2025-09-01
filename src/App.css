@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.logo2 {
+
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo2:hover {
+  filter: drop-shadow(0 0 5em #ffffff);
+}

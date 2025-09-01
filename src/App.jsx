@@ -5,6 +5,8 @@ import './App.css'
 import Home from "./compononts/Home/Home"
 import About from "./compononts/About/About"
 import Contact from './compononts/Contact/Contact'
+import Products from './compononts/Products/Products'
+import ProductInfo from './compononts/ProductInfo/ProductInfo'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
     <About/>
     <Contact/>
     <h4>====================================================</h4>
+    <Products/>
+    <ProductInfo/>
     </>
   )
 }
