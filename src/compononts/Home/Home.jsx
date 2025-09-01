@@ -6,7 +6,7 @@ export default function Home()
     let[random,SetRandom]=useState(0);
     return(
         <>
-            
+            <h1>LAB1</h1>
             <h1>HOME PAGE</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, corporis?</p>
             <h2>COUNTER</h2>
@@ -18,6 +18,7 @@ export default function Home()
             <strong><span style={{display:"inline-block",margin:"20px"}}>Random: {random}</span></strong>
             <br></br>
             <button onClick={()=>{SetCount(0)}}>Reset</button>
+            
         </>
     )
 };
