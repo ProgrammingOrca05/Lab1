@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #00022b;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,9 +23,8 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
+   margin: 0;
+  padding: 0;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -42,12 +41,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #6970ffff;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #ff0000;
 }
 button:focus,
 button:focus-visible {
