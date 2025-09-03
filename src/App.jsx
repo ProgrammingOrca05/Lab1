@@ -13,6 +13,9 @@ import All from './compononts/Shop/All/All'
 import Woemn from './compononts/Shop/Women/Woemn'
 import Men from './compononts/Shop/Men/Men'
 import Shop from './compononts/Shop/Shop'
+import Category from './compononts/Shop/Category'
+
+import ProductDetail from './compononts/ProductDetail/ProductDetail'
 
 
 function App() {
@@ -29,12 +32,12 @@ const router=createBrowserRouter([
       {path:"shop",element:<Shop/>,
         children:[
           {index:true,element:<All/>},
-          {path:"men",element:<Men/>},
-          {path:"women",element:<Woemn/>},
+          {path:":category",element:<Category/>},
         ]
-      }
-    ],
-    errorElement: <h1>404 Not Found</h1>
+      },
+      {path:"product/:id",element:<ProductDetail/>}
+    ]
+
 
 
   }

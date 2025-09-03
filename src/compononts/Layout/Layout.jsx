@@ -37,8 +37,10 @@ export default function Layout() {
           Cart
         </Link>
       </nav>
+      
 
       <Outlet />
+
     </>
   );
 
